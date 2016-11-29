@@ -78,8 +78,7 @@ InModuleScope PSJira {
 }
 "@
 
-        $DebugPreference = "Continue"
-
+        
         $sampleObject = ConvertFrom-Json2 -InputObject $sampleJson
 
         It "Creates a PSObject out of JSON input" {
