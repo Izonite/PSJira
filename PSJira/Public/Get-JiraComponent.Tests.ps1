@@ -1,7 +1,3 @@
-####################
-############## TODO
-####################
-
 $here = Split-Path -Parent $MyInvocation.MyCommand.Path
 $sut = (Split-Path -Leaf $MyInvocation.MyCommand.Path).Replace(".Tests.", ".")
 . "$here\$sut"
@@ -18,7 +14,6 @@ InModuleScope PSJira {
     $testComponentDescription = "This is a JIRA component"
     $testProjectKey = "PRJKEY"
     $testProjectId = 11111
-#    $testGroupNameEscaped = [System.Web.HttpUtility]::UrlPathEncode($testGroupName)
 
     $testProjectKey2 = "PRJK2"
     $testProjectId2 = 22222
@@ -31,8 +26,6 @@ InModuleScope PSJira {
 #GET /rest/api/2/component/{id}
 # and
 #GET /rest/api/2/project/{$testProjectKey}/components
-
-
     $restResultOne = @"
 {
     "self": "$jiraServer/rest/api/2/component/$testComponentId",
