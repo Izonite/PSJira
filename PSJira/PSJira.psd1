@@ -78,7 +78,8 @@ FunctionsToExport = 'Add-JiraGroupMember', 'Add-JiraIssueComment', 'Format-Jira'
                'New-JiraGroup', 'New-JiraIssue', 'New-JiraSession', 'New-JiraUser', 
                'Remove-JiraGroup', 'Remove-JiraGroupMember', 'Remove-JiraSession', 
                'Remove-JiraUser', 'Set-JiraConfigServer', 'Set-JiraIssue', 
-               'Set-JiraIssueLabel', 'Set-JiraUser'
+               'Set-JiraIssueLabel', 'Set-JiraUser', 
+               'New-JiraComponent', 'Get-JiraComponent','Set-JiraComponent'
 
 # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
 CmdletsToExport = @()
