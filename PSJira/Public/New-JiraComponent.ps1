@@ -1,4 +1,6 @@
-﻿function New-JiraComponent
+﻿##### TODO : TO COMPLETE
+
+function New-JiraComponent
 {
     <#
     .Synopsis
